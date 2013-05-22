@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31944D70174CD24D00673F06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31944D6F174CD24D00673F06 /* UIKit.framework */; };
+		31944D72174CD24D00673F06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31944D71174CD24D00673F06 /* Foundation.framework */; };
+		31944D74174CD24D00673F06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31944D73174CD24D00673F06 /* CoreGraphics.framework */; };
+		31944D7A174CD24D00673F06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31944D78174CD24D00673F06 /* InfoPlist.strings */; };
+		31944D7C174CD24D00673F06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31944D7B174CD24D00673F06 /* main.m */; };
+		31944D80174CD24D00673F06 /* LFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31944D7F174CD24D00673F06 /* LFAppDelegate.m */; };
+		31944D82174CD24D00673F06 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 31944D81174CD24D00673F06 /* Default.png */; };
+		31944D84174CD24D00673F06 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31944D83174CD24D00673F06 /* Default@2x.png */; };
+		31944D86174CD24D00673F06 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31944D85174CD24D00673F06 /* Default-568h@2x.png */; };
+		31944D89174CD24D00673F06 /* LFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31944D88174CD24D00673F06 /* LFViewController.m */; };
+		31944D8C174CD24D00673F06 /* LFViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31944D8A174CD24D00673F06 /* LFViewController_iPhone.xib */; };
+		31944D8F174CD24D00673F06 /* LFViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31944D8D174CD24D00673F06 /* LFViewController_iPad.xib */; };
+		31944D97174CD2A900673F06 /* LFMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31944D96174CD2A900673F06 /* LFMarqueeView.m */; };
+		31944D9A174CD41700673F06 /* LFTapableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31944D99174CD41700673F06 /* LFTapableImageView.m */; };
+		31944D9D174CD57500673F06 /* LFImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31944D9C174CD57500673F06 /* LFImageModel.m */; };
+		31944DA0174CD6BF00673F06 /* LFSelfReplacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31944D9F174CD6BF00673F06 /* LFSelfReplacer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31944D6C174CD24D00673F06 /* LFMarqueImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFMarqueImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31944D6F174CD24D00673F06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31944D71174CD24D00673F06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31944D73174CD24D00673F06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		31944D77174CD24D00673F06 /* LFMarqueImages-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LFMarqueImages-Info.plist"; sourceTree = "<group>"; };
+		31944D79174CD24D00673F06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31944D7B174CD24D00673F06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31944D7D174CD24D00673F06 /* LFMarqueImages-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LFMarqueImages-Prefix.pch"; sourceTree = "<group>"; };
+		31944D7E174CD24D00673F06 /* LFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFAppDelegate.h; sourceTree = "<group>"; };
+		31944D7F174CD24D00673F06 /* LFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFAppDelegate.m; sourceTree = "<group>"; };
+		31944D81174CD24D00673F06 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		31944D83174CD24D00673F06 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		31944D85174CD24D00673F06 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		31944D87174CD24D00673F06 /* LFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFViewController.h; sourceTree = "<group>"; };
+		31944D88174CD24D00673F06 /* LFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFViewController.m; sourceTree = "<group>"; };
+		31944D8B174CD24D00673F06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LFViewController_iPhone.xib; sourceTree = "<group>"; };
+		31944D8E174CD24D00673F06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LFViewController_iPad.xib; sourceTree = "<group>"; };
+		31944D95174CD2A900673F06 /* LFMarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFMarqueeView.h; sourceTree = "<group>"; };
+		31944D96174CD2A900673F06 /* LFMarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFMarqueeView.m; sourceTree = "<group>"; };
+		31944D98174CD41700673F06 /* LFTapableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTapableImageView.h; sourceTree = "<group>"; };
+		31944D99174CD41700673F06 /* LFTapableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTapableImageView.m; sourceTree = "<group>"; };
+		31944D9B174CD57500673F06 /* LFImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFImageModel.h; sourceTree = "<group>"; };
+		31944D9C174CD57500673F06 /* LFImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFImageModel.m; sourceTree = "<group>"; };
+		31944D9E174CD6BE00673F06 /* LFSelfReplacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSelfReplacer.h; sourceTree = "<group>"; };
+		31944D9F174CD6BF00673F06 /* LFSelfReplacer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSelfReplacer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31944D69174CD24D00673F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31944D70174CD24D00673F06 /* UIKit.framework in Frameworks */,
+				31944D72174CD24D00673F06 /* Foundation.framework in Frameworks */,
+				31944D74174CD24D00673F06 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31944D63174CD24D00673F06 = {
+			isa = PBXGroup;
+			children = (
+				31944D75174CD24D00673F06 /* LFMarqueImages */,
+				31944D6E174CD24D00673F06 /* Frameworks */,
+				31944D6D174CD24D00673F06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31944D6D174CD24D00673F06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31944D6C174CD24D00673F06 /* LFMarqueImages.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31944D6E174CD24D00673F06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31944D6F174CD24D00673F06 /* UIKit.framework */,
+				31944D71174CD24D00673F06 /* Foundation.framework */,
+				31944D73174CD24D00673F06 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31944D75174CD24D00673F06 /* LFMarqueImages */ = {
+			isa = PBXGroup;
+			children = (
+				31944D7E174CD24D00673F06 /* LFAppDelegate.h */,
+				31944D7F174CD24D00673F06 /* LFAppDelegate.m */,
+				31944D87174CD24D00673F06 /* LFViewController.h */,
+				31944D88174CD24D00673F06 /* LFViewController.m */,
+				31944D9B174CD57500673F06 /* LFImageModel.h */,
+				31944D9C174CD57500673F06 /* LFImageModel.m */,
+				31944D95174CD2A900673F06 /* LFMarqueeView.h */,
+				31944D96174CD2A900673F06 /* LFMarqueeView.m */,
+				31944D9E174CD6BE00673F06 /* LFSelfReplacer.h */,
+				31944D9F174CD6BF00673F06 /* LFSelfReplacer.m */,
+				31944D98174CD41700673F06 /* LFTapableImageView.h */,
+				31944D99174CD41700673F06 /* LFTapableImageView.m */,
+				31944D8A174CD24D00673F06 /* LFViewController_iPhone.xib */,
+				31944D8D174CD24D00673F06 /* LFViewController_iPad.xib */,
+				31944D76174CD24D00673F06 /* Supporting Files */,
+			);
+			path = LFMarqueImages;
+			sourceTree = "<group>";
+		};
+		31944D76174CD24D00673F06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31944D77174CD24D00673F06 /* LFMarqueImages-Info.plist */,
+				31944D78174CD24D00673F06 /* InfoPlist.strings */,
+				31944D7B174CD24D00673F06 /* main.m */,
+				31944D7D174CD24D00673F06 /* LFMarqueImages-Prefix.pch */,
+				31944D81174CD24D00673F06 /* Default.png */,
+				31944D83174CD24D00673F06 /* Default@2x.png */,
+				31944D85174CD24D00673F06 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31944D6B174CD24D00673F06 /* LFMarqueImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31944D92174CD24D00673F06 /* Build configuration list for PBXNativeTarget "LFMarqueImages" */;
+			buildPhases = (
+				31944D68174CD24D00673F06 /* Sources */,
+				31944D69174CD24D00673F06 /* Frameworks */,
+				31944D6A174CD24D00673F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFMarqueImages;
+			productName = LFMarqueImages;
+			productReference = 31944D6C174CD24D00673F06 /* LFMarqueImages.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31944D64174CD24D00673F06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LF;
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 31944D67174CD24D00673F06 /* Build configuration list for PBXProject "LFMarqueImages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31944D63174CD24D00673F06;
+			productRefGroup = 31944D6D174CD24D00673F06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31944D6B174CD24D00673F06 /* LFMarqueImages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31944D6A174CD24D00673F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31944D7A174CD24D00673F06 /* InfoPlist.strings in Resources */,
+				31944D82174CD24D00673F06 /* Default.png in Resources */,
+				31944D84174CD24D00673F06 /* Default@2x.png in Resources */,
+				31944D86174CD24D00673F06 /* Default-568h@2x.png in Resources */,
+				31944D8C174CD24D00673F06 /* LFViewController_iPhone.xib in Resources */,
+				31944D8F174CD24D00673F06 /* LFViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31944D68174CD24D00673F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31944D7C174CD24D00673F06 /* main.m in Sources */,
+				31944D80174CD24D00673F06 /* LFAppDelegate.m in Sources */,
+				31944D89174CD24D00673F06 /* LFViewController.m in Sources */,
+				31944D97174CD2A900673F06 /* LFMarqueeView.m in Sources */,
+				31944D9A174CD41700673F06 /* LFTapableImageView.m in Sources */,
+				31944D9D174CD57500673F06 /* LFImageModel.m in Sources */,
+				31944DA0174CD6BF00673F06 /* LFSelfReplacer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31944D78174CD24D00673F06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31944D79174CD24D00673F06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31944D8A174CD24D00673F06 /* LFViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31944D8B174CD24D00673F06 /* en */,
+			);
+			name = LFViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		31944D8D174CD24D00673F06 /* LFViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31944D8E174CD24D00673F06 /* en */,
+			);
+			name = LFViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31944D90174CD24D00673F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31944D91174CD24D00673F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31944D93174CD24D00673F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LFMarqueImages/LFMarqueImages-Prefix.pch";
+				INFOPLIST_FILE = "LFMarqueImages/LFMarqueImages-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31944D94174CD24D00673F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LFMarqueImages/LFMarqueImages-Prefix.pch";
+				INFOPLIST_FILE = "LFMarqueImages/LFMarqueImages-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31944D67174CD24D00673F06 /* Build configuration list for PBXProject "LFMarqueImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31944D90174CD24D00673F06 /* Debug */,
+				31944D91174CD24D00673F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31944D92174CD24D00673F06 /* Build configuration list for PBXNativeTarget "LFMarqueImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31944D93174CD24D00673F06 /* Debug */,
+				31944D94174CD24D00673F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31944D64174CD24D00673F06 /* Project object */;
+}
