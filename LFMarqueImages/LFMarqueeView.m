@@ -53,9 +53,12 @@
     containerView_.contentSize = CGSizeMake([list count] * bounds.size.width, bounds.size.height);
     
     CGFloat x = 0;
+    int i = 1;
     for (LFImageModel *it in list) {
-        UIImageView *img = [[LFTapableImageView alloc] initWithFrame:bounds taget:self info:it];
-        [img setImageWithURL:[NSURL URLWithString:it.url] placeholderImage:[UIImage imageNamed:@"image"]];
+        LFTapableImageView *img = [[LFTapableImageView alloc] initWithFrame:bounds taget:self info:it];
+        UIImage *im = [UIImage imageNamed:[NSString stringWithFormat:@"%d.png",i]];
+        i++;
+        [img setImage:im];
         [containerView_ addSubview:img];
         img.frame = CGRectOffset(img.frame, x, img.frame.origin.y);
         [img release];
@@ -74,7 +77,7 @@
     {
         [timerOwner release];
     }
-    timerOwner = [[SelfReplacer alloc] initWithObject:self selector:NSStringFromSelector(@selector(marquee))];
+    timerOwner = [[LFSelfReplacer alloc] initWithObject:self selector:NSStringFromSelector(@selector(marquee))];
     if (repeatTimer)
     {
         [repeatTimer invalidate];

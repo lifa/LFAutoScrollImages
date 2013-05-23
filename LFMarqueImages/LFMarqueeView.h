@@ -19,7 +19,7 @@
     CGRect pcRect;
 
     NSTimer         *repeatTimer;
-    SelfReplacer    *timerOwner;
+    LFSelfReplacer    *timerOwner;
 
     NSTimeInterval  timerInterval;
 

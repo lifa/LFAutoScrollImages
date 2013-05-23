@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LFMarqueeView.h"
 
 @interface LFViewController : UIViewController
+{
+    NSMutableArray             *urls_;
+    LFMarqueeView       *marquee_;
+}
 
 @end

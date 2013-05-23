@@ -23,6 +23,10 @@
 		31944D9A174CD41700673F06 /* LFTapableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31944D99174CD41700673F06 /* LFTapableImageView.m */; };
 		31944D9D174CD57500673F06 /* LFImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31944D9C174CD57500673F06 /* LFImageModel.m */; };
 		31944DA0174CD6BF00673F06 /* LFSelfReplacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31944D9F174CD6BF00673F06 /* LFSelfReplacer.m */; };
+		31F5D9CA174E1F7300BEEDEB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F5D9C9174E1F7300BEEDEB /* QuartzCore.framework */; };
+		31F5D9CE174E22AF00BEEDEB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F5D9CB174E22AF00BEEDEB /* 1.png */; };
+		31F5D9CF174E22AF00BEEDEB /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F5D9CC174E22AF00BEEDEB /* 2.png */; };
+		31F5D9D0174E22AF00BEEDEB /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F5D9CD174E22AF00BEEDEB /* 3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +55,10 @@
 		31944D9C174CD57500673F06 /* LFImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFImageModel.m; sourceTree = "<group>"; };
 		31944D9E174CD6BE00673F06 /* LFSelfReplacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSelfReplacer.h; sourceTree = "<group>"; };
 		31944D9F174CD6BF00673F06 /* LFSelfReplacer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSelfReplacer.m; sourceTree = "<group>"; };
+		31F5D9C9174E1F7300BEEDEB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		31F5D9CB174E22AF00BEEDEB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		31F5D9CC174E22AF00BEEDEB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		31F5D9CD174E22AF00BEEDEB /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31F5D9CA174E1F7300BEEDEB /* QuartzCore.framework in Frameworks */,
 				31944D70174CD24D00673F06 /* UIKit.framework in Frameworks */,
 				31944D72174CD24D00673F06 /* Foundation.framework in Frameworks */,
 				31944D74174CD24D00673F06 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +96,7 @@
 		31944D6E174CD24D00673F06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				31F5D9C9174E1F7300BEEDEB /* QuartzCore.framework */,
 				31944D6F174CD24D00673F06 /* UIKit.framework */,
 				31944D71174CD24D00673F06 /* Foundation.framework */,
 				31944D73174CD24D00673F06 /* CoreGraphics.framework */,
@@ -97,6 +107,9 @@
 		31944D75174CD24D00673F06 /* LFMarqueImages */ = {
 			isa = PBXGroup;
 			children = (
+				31F5D9CB174E22AF00BEEDEB /* 1.png */,
+				31F5D9CC174E22AF00BEEDEB /* 2.png */,
+				31F5D9CD174E22AF00BEEDEB /* 3.png */,
 				31944D7E174CD24D00673F06 /* LFAppDelegate.h */,
 				31944D7F174CD24D00673F06 /* LFAppDelegate.m */,
 				31944D87174CD24D00673F06 /* LFViewController.h */,
@@ -187,6 +200,9 @@
 				31944D86174CD24D00673F06 /* Default-568h@2x.png in Resources */,
 				31944D8C174CD24D00673F06 /* LFViewController_iPhone.xib in Resources */,
 				31944D8F174CD24D00673F06 /* LFViewController_iPad.xib in Resources */,
+				31F5D9CE174E22AF00BEEDEB /* 1.png in Resources */,
+				31F5D9CF174E22AF00BEEDEB /* 2.png in Resources */,
+				31F5D9D0174E22AF00BEEDEB /* 3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +350,7 @@
 				31944D94174CD24D00673F06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
